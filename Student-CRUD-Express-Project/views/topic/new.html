@@ -1,0 +1,56 @@
+<!-- 继承自template.html -->
+{{extend '../_layouts/template.html'}}
+
+{{block 'title'}}
+添加学生页面
+{{/block}}
+
+{{block 'body'}}
+<div class="container">
+  <div class="addStudent" style="margin-top: 20px;">
+    <h1 style="padding: 20px 0px;">添加学生</h1>
+    <form action="/students/new" method="post">
+      <div class="form-group row">
+        <label for="inputName" class="col-sm-2 col-form-label">姓名</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputName" placeholder="姓名" name="username">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="" class="col-sm-2 col-form-label">性别</label>
+        &nbsp;&nbsp;&nbsp;
+        <div class="custom-control custom-radio custom-control-inline" style="padding-top: 5px;">
+          <input type="radio" id="man" name="gender" class="custom-control-input" value="1" checked>
+          <label class="custom-control-label" for="man"> 男 </label>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline" style="padding-top: 5px;">
+          <input type="radio" id="woman" name="gender" class="custom-control-input" value="0">
+          <label class="custom-control-label" for="woman"> 女 </label>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputAge" class="col-sm-2 col-form-label">年龄</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control" id="inputAge" placeholder="年龄" name="age" min="0" max="120">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="inputHobbies" class="col-sm-2 col-form-label">爱好</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputHobbies" placeholder="爱好" name="hobbies">
+        </div>
+      </div>
+      <br>
+      <div class="form-group row">
+        <div class="col">
+          <button type="submit" class="btn btn-primary btn-block">添加</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+{{/block}}
+
+{{block 'script'}}
+
+{{/block}}
