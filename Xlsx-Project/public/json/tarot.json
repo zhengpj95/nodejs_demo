@@ -1,0 +1,90 @@
+[
+	{
+		"id": 910001,
+		"star": 0,
+		"quality": 1,
+		"attr": "{{type:1, value:100}}",
+		"power": 1200,
+		"desc": "这是品质1的塔罗牌"
+	},
+	{
+		"id": 910001,
+		"star": 1,
+		"quality": 2,
+		"attr": "{{type:1, value:101}}",
+		"power": 1300,
+		"desc": "这是品质2的塔罗牌"
+	},
+	{
+		"id": 910001,
+		"star": 2,
+		"quality": 3,
+		"attr": "{{type:1, value:102}}",
+		"power": 1400,
+		"desc": "这是品质3的塔罗牌"
+	},
+	{
+		"id": 910001,
+		"star": 3,
+		"quality": 4,
+		"attr": "{{type:1, value:103}}",
+		"power": 1500,
+		"desc": "这是品质4的塔罗牌"
+	},
+	{
+		"id": 910001,
+		"star": 4,
+		"quality": 5,
+		"attr": "{{type:1, value:104}}",
+		"power": 1600,
+		"desc": "这是品质5的塔罗牌"
+	},
+	{
+		"id": 910001,
+		"star": 5,
+		"quality": 6,
+		"attr": "{{type:1, value:105}}",
+		"power": 1700,
+		"desc": "这是品质6的塔罗牌"
+	},
+	{
+		"id": 910001,
+		"star": 6,
+		"quality": 7,
+		"attr": "{{type:1, value:106}}",
+		"power": 1800,
+		"desc": "这是品质7的塔罗牌"
+	},
+	{
+		"id": 910001,
+		"star": 7,
+		"quality": 8,
+		"attr": "{{type:1, value:107}}",
+		"power": 1900,
+		"desc": "这是品质8的塔罗牌"
+	},
+	{
+		"id": 910001,
+		"star": 8,
+		"quality": 9,
+		"attr": "{{type:1, value:108}}",
+		"power": 2000,
+		"desc": "这是品质9的塔罗牌"
+	},
+	{
+		"id": 910001,
+		"star": 9,
+		"quality": 10,
+		"attr": "{{type:1, value:109}}",
+		"power": 2100,
+		"desc": "这是品质10的塔罗牌"
+	},
+	{
+		"id": 910001,
+		"star": 10,
+		"quality": 11,
+		"attr": "{{type:1, value:110}}",
+		"power": 2200,
+		"desc": "这是品质11的塔罗牌"
+	}
+]
