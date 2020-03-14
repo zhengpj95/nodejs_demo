@@ -18,19 +18,21 @@ function createObj() {
 	let nameLength = newName.length;
 	let newData = excelObj.slice(1);
 
-	// let result = {};	//对象
-	let result2 = [];	//数组
+	let result = {};	//对象
+	// let result2 = [];	//数组
 
+	let index = 0;
 	for (let data of newData) {
 		let obj = {};
 		for (let i = 0; i < nameLength; i++) {
 			obj[`${newName[i]}`] = data[i];
 		}
-		// result[`${data[0]}`] = obj;
-		result2.push(obj);
+		result[`${index}`] = obj;
+		index++;
+		// result2.push(obj);
 	}
 
-	return result2;
+	return result;
 }
 
 let result = createObj();
