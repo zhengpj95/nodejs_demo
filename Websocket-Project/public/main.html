@@ -9,11 +9,17 @@
 
 <body>
 
+	<input type="text" id="input">
+	<button id="send" type="button">发送</button>
+
 	<script>
 		const ws = new WebSocket('ws://localhost:5050');
 
 		ws.onopen = function () {
 			ws.send('来自客户端的message');
+			document.getElementById('send').onclick = function () {
+				ws.send(document.getElementById('input').value);
+			}
 		}
 
 		ws.onmessage = function (e) {
