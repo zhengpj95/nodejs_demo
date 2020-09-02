@@ -25,3 +25,9 @@ Student-CRUD-Express-Project
 Xlsx-Project
 
 读取 xlsx 表格，导出相应的 json 文件
+
+## Demo5
+
+ws_demo
+
+学习socket和mongoose的使用，创建客户端和服务端的socket，并进行通信
