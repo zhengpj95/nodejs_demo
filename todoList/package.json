@@ -1,0 +1,21 @@
+{
+	"name": "todo-list",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"test": "",
+		"start": "nodemon app.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"express": "^4.17.1",
+		"nodemon": "^2.0.6"
+	},
+	"dependencies": {
+		"bootstrap": "^4.5.3",
+		"jquery": "^3.5.1"
+	}
+}
